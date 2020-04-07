@@ -1,27 +1,27 @@
-gcr.io/kubeflow-images-public/ingress-setup:latest
-gcr.io/kubeflow-images-public/admission-webhook:v20190520-v0-139-gcee39dbc-dirty-0d8f4c
-gcr.io/kubeflow-images-public/kubernetes-sigs/application:1.0-beta
-gcr.io/kubeflow-images-public/centraldashboard@sha256:4299297b8390599854aa8f77e9eb717db684b32ca9a94a0ab0e73f3f73e5d8b5
-gcr.io/kubeflow-images-public/jupyter-web-app:9419d4d
-gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller:v0.7.0
-gcr.io/kubeflow-images-public/katib/v1alpha3/katib-manager:v0.7.0
-gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui:v0.7.0
-gcr.io/kubebuilder/kube-rbac-proxy:v0.4.0
-gcr.io/kubeflow-images-public/metadata:v0.1.11
-gcr.io/ml-pipeline/envoy:metadata-grpc
-gcr.io/tfx-oss-public/ml_metadata_store_server:0.15.1
-gcr.io/kubeflow-images-public/metadata-frontend:v0.1.8
-gcr.io/ml-pipeline/api-server:0.1.31
-gcr.io/ml-pipeline/visualization-server:0.1.27
-gcr.io/ml-pipeline/persistenceagent:0.1.31
-gcr.io/ml-pipeline/scheduledworkflow:0.1.31
-gcr.io/ml-pipeline/frontend:0.1.31
-gcr.io/ml-pipeline/viewer-crd-controller:0.1.31
-gcr.io/kubeflow-images-public/notebook-controller@sha256:6490f737000bd1d2520ac4b8cbde2b09749cdb291b1967ddda95d05131db49db
-gcr.io/kubeflow-images-public/profile-controller@sha256:9b834c9d44f9e4e8d5b9f8f01645afb84d5b3debcb177f3e49eac8ee46ae239d
-gcr.io/kubeflow-images-public/kfam@sha256:3b0d4be7e59a3fa5ed1d80dccc832312caa94f3b2d36682524d3afc4e45164f0
-gcr.io/kubeflow-images-public/pytorch-operator:v0.7.0
-gcr.io/kubeflow-images-public/tf_operator:v0.7.0
-gcr.io/kfserving/kfserving-controller@sha256:180d06026c4dd6c2d3ce4748efc896751b9bb6108b67a9eaa0e50158d6e10f1e
-gcr.io/google_containers/spartakus-amd64:v1.1.0
+FROM gcr.io/kubeflow-images-public/ingress-setup:latest
+FROM gcr.io/kubeflow-images-public/admission-webhook:v20190520-v0-139-gcee39dbc-dirty-0d8f4c
+FROM gcr.io/kubeflow-images-public/kubernetes-sigs/application:1.0-beta
+FROM gcr.io/kubeflow-images-public/centraldashboard@sha256:4299297b8390599854aa8f77e9eb717db684b32ca9a94a0ab0e73f3f73e5d8b5
+FROM gcr.io/kubeflow-images-public/jupyter-web-app:9419d4d
+FROM gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller:v0.7.0
+FROM gcr.io/kubeflow-images-public/katib/v1alpha3/katib-manager:v0.7.0
+FROM gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui:v0.7.0
+FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.4.0
+FROM gcr.io/kubeflow-images-public/metadata:v0.1.11
+FROM gcr.io/ml-pipeline/envoy:metadata-grpc
+FROM gcr.io/tfx-oss-public/ml_metadata_store_server:0.15.1
+FROM gcr.io/kubeflow-images-public/metadata-frontend:v0.1.8
+FROM gcr.io/ml-pipeline/api-server:0.1.31
+FROM gcr.io/ml-pipeline/visualization-server:0.1.27
+FROM gcr.io/ml-pipeline/persistenceagent:0.1.31
+FROM gcr.io/ml-pipeline/scheduledworkflow:0.1.31
+FROM gcr.io/ml-pipeline/frontend:0.1.31
+FROM gcr.io/ml-pipeline/viewer-crd-controller:0.1.31
+FROM gcr.io/kubeflow-images-public/notebook-controller@sha256:6490f737000bd1d2520ac4b8cbde2b09749cdb291b1967ddda95d05131db49db
+FROM gcr.io/kubeflow-images-public/profile-controller@sha256:9b834c9d44f9e4e8d5b9f8f01645afb84d5b3debcb177f3e49eac8ee46ae239d
+FROM gcr.io/kubeflow-images-public/kfam@sha256:3b0d4be7e59a3fa5ed1d80dccc832312caa94f3b2d36682524d3afc4e45164f0
+FROM gcr.io/kubeflow-images-public/pytorch-operator:v0.7.0
+FROM gcr.io/kubeflow-images-public/tf_operator:v0.7.0
+FROM gcr.io/kfserving/kfserving-controller@sha256:180d06026c4dd6c2d3ce4748efc896751b9bb6108b67a9eaa0e50158d6e10f1e
+FROM gcr.io/google_containers/spartakus-amd64:v1.1.0
 
